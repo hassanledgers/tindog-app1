@@ -1,0 +1,173 @@
+#title{
+  background-color: #ff4c68;
+  color:white;
+}
+
+}
+body{
+  font-style: montserrat-black;
+}
+h2{
+  font-family: montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+
+  font-size: 2rem:
+}
+
+.first-h1{
+  font-style: montserrat-black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 3% 15% 5% ;
+}
+.buttons{
+  margin-top: 1.7rem ;
+
+
+}
+.iphone-img{
+  transform: rotate(30deg);
+  width: 50%;
+  position: absolute;
+  right: 30%;
+
+}
+/*** navigation bar ***/
+.navbar{
+padding:0 0  4.5rem 0  ;
+
+}
+
+.nav-item{
+  padding: 0 18px ;
+
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light"
+}
+/** futures section ***/
+#features{
+  padding: 7% 15% 7% 15% ;
+  font-size: 1.5rem;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.features-div{
+  text-align: center;
+  padding: 5%
+}
+.icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+
+  color: black ;
+}
+/** testimonials **/
+#testimonials{
+  padding: 7% 15% 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: white ;
+}
+.test-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.img{
+  width: 15%;
+  margin : 20px 20px 50px 20px
+}
+.carousel-item{
+  padding : 7% 15%;
+}
+
+
+
+
+#pricing{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2% 3% 2% ;
+}
+
+
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white ;
+
+  padding: 10%;
+  height: 1.5;
+
+}
+
+.last-h3 {
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  line-height: 1.5;
+}
+
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    width: 50%;
+    position: static;
+    right: 30%;
+    transform: rotate(0);
+    padding-top: 5%;
+}
+}
+
+#footer{
+  margin: 10%;
+  text-align: center;
+}
+.footer-icons{
+  padding-bottom: 1rem;
+
+}
+.social-icons{
+  margin: 0.5rem
+}
+.Download-button{
+  margin: 0.3rem;
+}
